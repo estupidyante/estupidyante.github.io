@@ -101,6 +101,10 @@ header {
   position:fixed;
 }
 
+header h1 {
+  padding-bottom: 0px;
+}
+
 header p {
   margin: 0px;
   padding: 0px;
