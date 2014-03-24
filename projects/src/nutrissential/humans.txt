@@ -1,0 +1,68 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  
+  /* DEVELOPERS */
+  <your title> : <your name>
+  Site: 
+  Twitter: 
+  Location:
+
+  <your title> : <your name>
+  Site: 
+  Twitter: 
+  Location:
+
+  /* VISUAL INTERFACE DESIGNER */
+  <your title> : <your name>
+  Site: 
+  Twitter: 
+  Location:
+
+  /* STRATEGIST */
+  <your title> : <your name>
+  Site: 
+  Twitter: 
+  Location:
+
+  /* PROJECT MANAGER */
+  <your title> : <your name>
+  Site: 
+  Twitter: 
+  Location:
+
+
+/* THANKS */
+
+  /* HEAD OF ALL HEADS */
+  Names (& URL) : MORI RODRIGUEZ
+
+  /* Dev Head */
+  Names (& URL) : JON DANAO
+  
+  /* VID Head */
+  Names (& URL) : MICHAEL RIVERO
+  
+  /* Strat Head */
+  Names (& URL) : JP DOMINGO
+
+  /* UX */
+  Names (& URL) : ANGELA OBIAS
+
+  /* Project Manager head */
+  Names (& URL) : CHRISTOPHER NG
+
+  /* TEMPLATE GROUP */
+  Names (& URL) : HTML5 Boilerplate Developers (http://html5boilerplate.com/)
+
+
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, Progressive Internet Explorer
+  Software: Sublime Text 2
+
+
+

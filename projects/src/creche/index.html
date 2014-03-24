@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<title>CRECHE - CREATIVE RESPONSIVE CHECKER</title>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="author" content="Jay Gauten, Harold Magbanua">
+
+	<!-- BOOKMARK ICONS START -->
+	<link rel="icon" href="theme/images/icon.png" type="image/png" />
+	<!-- BOOKMARK ICONS END -->
+
+	<!-- STYLES START -->
+	<link rel="stylesheet" media="screen" href="theme/styles/master.css">
+	<link rel="author" href="humans.txt">
+	<!-- STYLES END -->
+
+</head>
+<body>
+
+	<!-- WRAPPER START -->
+	<div id="wrapper">
+		
+		<!-- HEADER START -->
+		<header class="main">
+
+			<div class="logo-holder">
+				<h1 class="logo"><a href="index.html"><img src="theme/images/logo.png" width="200" height="40" alt=""></a></h1>
+				
+				<div class="url">
+					<label for="url-input">URL:</label>
+					<input type="url" name="url" id="url-input">
+					<button class="submit icons">Go</button>
+				</div>
+
+				<p class="layout-type">
+					Orientation :
+
+					<a data-value="0" href="#" class="orientation icons">
+						<span class="t-portrait"></span>
+					</a>
+
+					<a data-value="1" href="#" class="orientation icons">
+						<span class="t-landscape"></span>
+					</a>
+				
+					<a href="#" class="reload icons">
+						<span class="refresh"></span>
+					</a>
+
+				</p>
+
+			</div>
+
+		</header>
+		<!-- HEADER END -->
+
+
+		<!-- CONTENT START -->
+		<div class="main" role="main">
+			
+			<header class="devices">
+				<div class="device-holder">
+					
+				</div> <!-- END OF DEVICES -->
+			</header>
+
+			<section class="viewport">
+				<p id="ruler" class="device-ruler"></p>
+				<iframe src="splash.html" width="320" height="480" id="window"></iframe>
+			</section>
+
+		</div>
+		<!-- CONTENT END -->
+
+
+		<!-- FOOTER START -->
+		<footer class="main">
+
+			<p>Copyright &copy; 2013. All Rights Reserved.</p>
+
+		</footer>
+		<!-- FOOTER END -->
+
+	</div>
+	<!-- WRAPPER END -->
+
+	<!-- SCRIPTS START -->
+	<script src="theme/scripts/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="theme/scripts/master.js"></script>
+	<!-- SCRIPTS END -->
+
+</body>
+</html>

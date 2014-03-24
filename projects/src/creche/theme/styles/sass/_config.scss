@@ -1,0 +1,11 @@
+@import "../lib/mixins.scss";
+
+// FONT FAMILIES // note: refer to Big Book of Font Combinations for type pairing
+$heading-font: Georgia;
+$reading-font: Arial;
+$alternative-font: Verdana;
+
+$reading-size:14px;
+$meta-size:$reading-size - 2;
+$heading-size:$reading-size * 3;
+

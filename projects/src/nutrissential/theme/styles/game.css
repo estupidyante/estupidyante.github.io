@@ -1,0 +1,238 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+	-ms-content-zooming:none;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+body {
+	line-height:1;
+}
+
+ol,ul {
+	list-style:none;
+}
+
+blockquote,q {
+	quotes:none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content:'';
+	content:none;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+a:active,a:focus {
+	outline:0;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+	body { background-color: #000; }
+	#viewporter {
+		position: absolute;
+		width: 50%;
+		height: 50%;
+		left: 0;
+		bottom: 0;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+
+.ctrCursor {
+	cursor: url(../images/cursors/cursor.cur), url(../images/cursors/cursor.png), auto;
+}
+.ctrPointer {
+	cursor: url(../images/cursors/handcursor.cur), url(../images/cursors/handcursor.png), auto;
+}
+.ctrCursorActive {
+	cursor: url(../images/cursors/cursorActive.cur), url(../images/cursors/cursorActive.png), auto;
+}
+
+.ctrSwipe {
+	cursor: url(../images/cursors/swipecursor.cur), url(../images/cursors/swipecursor.png), auto;
+}
+
+#viewporter {
+	position: relative;
+	width: 780px;
+	height: 460px;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid #000;*/
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
+
+#bestwork {
+	position: relative;
+	width: 780px;
+	height: 50px;
+	margin: 0 auto;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
+
+#bestwork img {
+	float: right;
+}
+/*===============
+	GAME VIEW
+===============*/
+#gameView {
+	background-color: transparent;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+
+#gameCanvas {
+	background: transparent;
+	width: 100%;
+	height: 100%;
+}
+
+.hud {
+	background-image: url(../images/screens/hud.png);
+	position: absolute;
+
+	z-index: 5;
+}
+
+/* MAGNIFY */
+#magnify {
+	display: none;
+	position: absolute;
+	left: 10px;
+	z-index: 5;
+}
+
+#zoomIn, #zoomOut {
+	cursor: url(../images/cursors/handcursor.cur), url(../images/cursors/handcursor.png), auto;
+	border: none;
+	background-color: transparent;
+	margin-top: 20px;
+	position: relative;
+	display: block;
+	width: 28px;
+	height: 28px;
+}
+
+#zoomIn {
+	background-position: -444px 0 !important;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#zoomOut {
+	background-position: -472px 0 !important;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* MINIMAP */
+#minimap-holder {
+    display: none;
+    position: absolute;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    right: 0;
+    z-index: 5;
+
+    transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+	-webkit-transition: all .2s ease-in-out;
+}
+
+#minimap {
+	background-color: #000;
+    border: 2px solid #000;
+    color: #FFFFFF;
+    font-size: 14px;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+}
+
+/*#mapa {
+	width: 100px;
+}*/
+
+#layer-box {
+	cursor: move;
+	cursor: url(../images/cursors/swipecursor.cur), url(../images/cursors/swipecursor.png), auto;
+    background-image: url(../images/worlds/level1/level1.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+#layer-overlay {
+    position: absolute;
+    display: block;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter:alpha(opacity=5);
+    z-index:3;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+}
+
+#layer-map {
+    background-image: url(../images/worlds/level1/level1_minimap.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}

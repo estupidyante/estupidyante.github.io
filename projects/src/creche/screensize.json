@@ -1,0 +1,86 @@
+{
+    "iphone4s" : {
+        "width" : 320,
+        "height" : 480,
+        "icon" : "theme/images/icons-devices-iphone4s.png",
+        "make" : "apple",
+        "long-name" : "Apple iPhone 4S"
+    },
+    "iphone5" : {
+        "width" : 320,
+        "height" : 568,
+        "icon" : "theme/images/icons-devices-iphone5.png",
+        "make" : "apple",
+        "long-name" : "Apple iPhone 5"
+    },
+    "ipad" : {
+        "width" : 768,
+        "height" : 1024,
+        "icon" : "theme/images/icons-devices-ipad.png",
+        "make" : "apple",
+        "long-name" : "Apple iPad"
+    },
+    "s3" : {
+        "width" : 360,
+        "height" : 640,
+        "icon" : "theme/images/icons-devices-galaxys3.png",
+        "make" : "samsung",
+        "long-name" : "Samsung Galaxy S3"
+    },
+    "s2" : {
+        "width" : 320,
+        "height" : 533,
+        "icon" : "theme/images/icons-devices-galaxys2.png",
+        "make" : "samsung",
+        "long-name" : "Samsung Galaxy S2"
+    },
+    "note2" : {
+        "width" : 320,
+        "height" : 640,
+        "icon" : "theme/images/icons-devices-galaxys3.png",
+        "make" : "samsung",
+        "long-name" : "Samsung Galaxy S2"
+    },
+    "tab" : {
+        "width" : 600,
+        "height" : 1024,
+        "icon" : "theme/images/icons-devices-tab2.png",
+        "make" : "samsung",
+        "long-name" : "Samsung Galaxy Tab"
+    },
+    "tab2" : {
+        "width" : 800,
+        "height" : 1280,
+        "icon" : "theme/images/icons-devices-tab2-10.png",
+        "make" : "samsung",
+        "long-name" : "Samsung Galaxy Tab 2"
+    },
+    "q10" : {
+        "width" : 360,
+        "height" : 360,
+        "icon" : "theme/images/icons-devices-q10.png",
+        "make" : "blackberry",
+        "long-name" : "Blackberry Q10"
+    },
+    "z10" : {
+        "width" : 384,
+        "height" : 640,
+        "icon" : "theme/images/icons-devices-z10.png",
+        "make" : "blackberry",
+        "long-name" : "Blackberry Z10"
+    },
+    "lumia920" : {
+        "width" : 384,
+        "height" : 640,
+        "icon" : "theme/images/icons-devices-lumia920.png",
+        "make" : "nokia",
+        "long-name" : "Nokia Lumia 920"
+    },
+    "lumia720" : {
+        "width" : 320,
+        "height" : 533,
+        "icon" : "theme/images/icons-devices-lumia720.png",
+        "make" : "nokia",
+        "long-name" : "Nokia Lumia 720"
+    }
+}

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<screens>
+
+    <!--screen-->
+    <asset type="menuBg" width="780" height="460" url="menu_bg.png"/>
+    <asset type="lobbyBg" width="780" height="460" url="lobby_bg.png"/>
+    <asset type="gameBg" width="780" height="460" url="game_bg.png"/>
+    <asset type="tutorialBg" width="780" height="460" url="tutorial_bg.png"/>
+
+    <!--credits-->
+    <asset type="gameCreditLogo" width="315" height="380" url="game_credits.png"/>
+    <asset type="gameCreditBtn" width="135" height="35" url="credits_btn.png"/>
+
+
+    <!--buttons-->
+    <asset type="playButton" width="170" height="50" url="ingame_play_normal.png"/>
+    <asset type="playButton_h" width="170" height="50" url="ingame_play_hover.png"/>
+    <asset type="tutorialButton" width="170" height="50" url="ingame_tutorial_normal.png"/>
+    <asset type="tutorialButton_h" width="170" height="50" url="ingame_tutorial_hover.png"/>
+    <asset type="backButton" width="65" height="65" url="ingame_back.png"/>
+    <asset type="menuBGMButton" width="45" height="45" url="menu_bgm_btn.png"/>
+    <asset type="menuSFXButton" width="45" height="45" url="menu_sfx_btn.png"/>
+
+
+    <asset type="ingameBGMButton" width="33" height="33" url="ingame_bgm_btn.png"/>
+    <asset type="ingameSFXButton" width="33" height="33" url="ingame_sfx_btn.png"/>
+
+
+    <asset type="ingameShowMapButton" width="50" height="51" url="ingame_show_map.png"/>
+    <asset type="ingameHideMapButton" width="50" height="51" url="ingame_hide_map.png"/>
+
+
+    <asset type="menuButton_n" width="130" height="35" url="ingame_menu_normal.png"/>
+    <asset type="menuButton_h" width="130" height="35" url="ingame_menu_hover.png"/>
+
+
+    <!--lobby:-->
+    <asset type="lobbyPagerLeft" width="57" height="124" url="lobby_pager_left.png"/>
+    <asset type="lobbyPagerRight" width="57" height="124" url="lobby_pager_right.png"/>
+
+
+    <!--HUD-->
+    <asset type="gameHUD" width="780" height="112" url="ingame_hud.png"/>
+    <asset type="gameItemDesc" width="780" height="100" url="item_desc.png"/>
+    <asset type="gameAvatarBg" width="200" height="200" url="gameHUDAvatar_bg.png"/>
+    <asset type="timeBarBg" width="0" height="0" url="ingame_ui_timeBar_base.png"/>
+    <asset type="timeBar" width="0" height="0" url="ingame_ui_timeBar.png"/>
+    <asset type="descCloseBtn" width="30" height="30" url="item_desc_close_btn.png"/>
+
+
+    <!--initAssets-->
+    <asset type="initLoadingBg" width="780" height="460" url="mainLoading_bg.png"/>
+    <asset type="initLoadingLogo" width="155" height="205" url="mainLoading_logo.png"/>
+
+
+    <!--popups:-->
+    <asset type="popupBase" width="360" height="260" url="pop_base.png"/>
+    <asset type="popupDescBase" width="365" height="250" url="pop_desc_base.png"/>
+    <asset type="popupPlainBase" width="365" height="250" url="pop_base_plain.png"/>
+    <asset type="xButton" width="46" height="47" url="pop_window_closebtn.png"/>
+    <asset type="pauseTitle" width="230" height="40" url="pop_pause_title.png"/>
+    <asset type="allItemTitle" width="320" height="40" url="pop_all_items_found_title.png"/>
+    <asset type="gameOverTitle" width="210" height="40" url="pop_game_over_title"/>
+    <asset type="congratsTitle" width="335" height="35" url="pop_congrats_title.png"/>
+    <asset type="levelCompleteTitle" width="285" height="60" url="pop_level_complete_title.png"/>
+    <asset type="pauseExitButton" width="64" height="64" url="pop_pause_btn_home.png"/>
+    <asset type="pausePlayButton" width="64" height="64" url="pop_pause_btn_back.png"/>
+    <asset type="pauseRestartButton" width="64" height="64" url="pop_pause_btn_restart.png"/>
+    <asset type="pauseTutorialButton" width="64" height="64" url="pop_pause_btn_tutorial.png"/>
+
+    <asset type="confirmTitle" width="240" height="60" url="pop_confirm_title.png"/>
+    <asset type="confirmYesButton" width="150" height="50" url="pop_confirm_btn_yes.png"/>
+    <asset type="confirmNoButton" width="150" height="50" url="pop_confirm_btn_no.png"/>
+
+</screens>

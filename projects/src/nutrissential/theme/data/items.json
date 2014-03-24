@@ -1,0 +1,266 @@
+{
+	"Niacin" : [
+		{
+			"name" : "Pork",
+			"desc" : "Rich in Niacin! A Nutrissential that aids in metabolism. ",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 50,
+			"time" : 2
+		},
+		{
+			"name" : "Mushroom",
+			"desc" : "Rich in Niacin! A Nutrissential that aids in metabolism.",
+			"ref" : "REF: As lifted from RENI",
+			"score": 75,
+			"time": 3
+		},
+		{
+			"name" : "Bangus",
+			"desc" : "Rich in Niacin! A Nutrissential that aids in metabolism.",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 25,
+			"time" : 2
+		},
+		{
+			"name" : "Eggs",
+			"desc" : "Rich in Niacin! A Nutrissential that aids in metabolism.",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 25,
+			"time" : 1
+		},
+		{
+			"name" : "Asparagus",
+			"desc" : "Rich in Niacin! A Nutrissential that aids in metabolism.",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 23,
+			"time" : 2
+		},
+		{
+			"name" : "Chicken",
+			"desc" : "Rich in Niacin! A Nutrissential that aids in metabolism.",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 30,
+			"time" : 3
+		}
+	],
+	"Potassium" : [
+		{
+			"name" : "Peanuts",
+			"desc" : "Rich in Potassium! A Nutrissential that helps promote healthy muscles and supports your kid’s various activities.",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 20,
+			"time" : 2
+		},
+		{
+			"name" : "Avocado",
+			"desc" : "Rich in Potassium! A Nutrissential that helps promote healthy muscles and supports your kid’s various activities.",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 20,
+			"time" : 2
+		},
+		{
+			"name" : "Banana",
+			"desc" : "Rich in Potassium! A Nutrissential that helps promote healthy muscles and supports your kid’s various activities.",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 20,
+			"time" : 2
+		},
+		{
+			"name" : "Kangkong",
+			"desc" : "Rich in Potassium! A Nutrissential that helps promote healthy muscles and supports your kid’s various activities.",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 20,
+			"time" : 2
+		},
+		{
+			"name" : "Milk",
+			"desc" : "Rich in Potassium! A Nutrissential that helps promote healthy muscles and supports your kid’s various activities.",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 20,
+			"time" : 2
+		},
+		{
+			"name" : "Potatoes",
+			"desc" : "Rich in Potassium! A Nutrissential that helps promote healthy muscles and supports your kid’s various activities.",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 20,
+			"time" : 2
+		}
+	],
+	"Biotin" : [
+		{
+			"name" : "Wheat",
+			"desc" : "Rich in Biotin! A Nutrissential that helps enhance your kid’s energy for physical growth and development!",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 30,
+			"time" : 1
+		},
+		{
+			"name" : "Cereal",
+			"desc" : "Rich in Biotin! A Nutrissential that helps enhance your kid’s energy for physical growth and development!",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 30,
+			"time" : 1
+		},
+		{
+			"name" : "Wheat Bread",
+			"desc" : "Rich in Biotin! A Nutrissential that helps enhance your kid’s energy for physical growth and development!",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 30,
+			"time" : 1
+		},
+		{
+			"name" : "Eggs",
+			"desc" : "Rich in Biotin! A Nutrissential that helps enhance your kid’s energy for physical growth and development!",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 30,
+			"time" : 1
+		},
+		{
+			"name" : "Salmon",
+			"desc" : "Rich in Biotin! A Nutrissential that helps enhance your kid’s energy for physical growth and development!",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 30,
+			"time" : 1
+		},
+		{
+			"name" : "Chicken",
+			"desc" : "Rich in Biotin! A Nutrissential that helps enhance your kid’s energy for physical growth and development!",
+			"ref" : "REF: As lifted from RENI",
+			"score" : 30,
+			"time" : 1
+		}
+	],
+	"Vitamin A" : [
+		{
+			"name" : "Liver",
+			"desc" : "Rich in Vitamin A! A Nutrissential that helps support healthy eye development.",
+			"ref" : "REF: Committee on Nutrition, American Academy of Pediatrics. Pediatric Nutrition Handbook. Kleinman RE, ed. 5th ed. Elk Grove Village, IL: American Academy of Pediatrics; 2004:346.",
+			"score" : 40,
+			"time" : 2
+		},
+		{
+			"name" : "Camote",
+			"desc" : "Rich in Vitamin A! A Nutrissential that helps support healthy eye development.",
+			"ref" : "REF: Committee on Nutrition, American Academy of Pediatrics. Pediatric Nutrition Handbook. Kleinman RE, ed. 5th ed. Elk Grove Village, IL: American Academy of Pediatrics; 2004:346.",
+			"score" : 40,
+			"time" : 2
+		},
+		{
+			"name" : "Carrots",
+			"desc" : "Rich in Vitamin A! A Nutrissential that helps support healthy eye development.",
+			"ref" : "REF: Committee on Nutrition, American Academy of Pediatrics. Pediatric Nutrition Handbook. Kleinman RE, ed. 5th ed. Elk Grove Village, IL: American Academy of Pediatrics; 2004:346.",
+			"score" : 40,
+			"time" : 2
+		},
+		{
+			"name" : "Malunggay",
+			"desc" : "Rich in Vitamin A! A Nutrissential that helps support healthy eye development.",
+			"ref" : "REF: Committee on Nutrition, American Academy of Pediatrics. Pediatric Nutrition Handbook. Kleinman RE, ed. 5th ed. Elk Grove Village, IL: American Academy of Pediatrics; 2004:346.",
+			"score" : 40,
+			"time" : 2
+		},
+		{
+			"name" : "Mangoes",
+			"desc" : "Rich in Vitamin A! A Nutrissential that helps support healthy eye development.",
+			"ref" : "REF: Committee on Nutrition, American Academy of Pediatrics. Pediatric Nutrition Handbook. Kleinman RE, ed. 5th ed. Elk Grove Village, IL: American Academy of Pediatrics; 2004:346.",
+			"score" : 40,
+			"time" : 2
+		},
+		{
+			"name" : "Melon",
+			"desc" : "Rich in Vitamin A! A Nutrissential that helps support healthy eye development.",
+			"ref" : "REF: Committee on Nutrition, American Academy of Pediatrics. Pediatric Nutrition Handbook. Kleinman RE, ed. 5th ed. Elk Grove Village, IL: American Academy of Pediatrics; 2004:346.",
+			"score" : 40,
+			"time" : 2
+		}
+	],
+	"Iodine" : [
+		{
+			"name" : "Spinach",
+			"desc" : "Rich in Iodine! A Nutrissential that helps support growth and maintenance of a healthy immune system.",
+			"ref" : "REF: Guthrie HA, Picciano MF. Human Nutrition. St. Louis, MO: Mosby-Year Book; 1995:359-365.",
+			"score" : 60,
+			"time" : 3
+		},
+		{
+			"name" : "Cheese",
+			"desc" : "Rich in Iodine! A Nutrissential that helps support growth and maintenance of a healthy immune system.",
+			"ref" : "REF: Guthrie HA, Picciano MF. Human Nutrition. St. Louis, MO: Mosby-Year Book; 1995:359-365.",
+			"score" : 60,
+			"time" : 3
+		},
+		{
+			"name" : "Strawberries",
+			"desc" : "Rich in Iodine! A Nutrissential that helps support growth and maintenance of a healthy immune system.",
+			"ref" : "REF: Guthrie HA, Picciano MF. Human Nutrition. St. Louis, MO: Mosby-Year Book; 1995:359-365.",
+			"score" : 60,
+			"time" : 3
+		},
+		{
+			"name" : "Eggs",
+			"desc" : "Rich in Iodine! A Nutrissential that helps support growth and maintenance of a healthy immune system.",
+			"ref" : "REF: Guthrie HA, Picciano MF. Human Nutrition. St. Louis, MO: Mosby-Year Book; 1995:359-365.",
+			"score" : 60,
+			"time" : 3
+		},
+		{
+			"name" : "Fish",
+			"desc" : "Rich in Iodine! A Nutrissential that helps support growth and maintenance of a healthy immune system.",
+			"ref" : "REF: Guthrie HA, Picciano MF. Human Nutrition. St. Louis, MO: Mosby-Year Book; 1995:359-365.",
+			"score" : 60,
+			"time" : 3
+		},
+		{
+			"name" : "Shellfish",
+			"desc" : "Rich in Iodine! A Nutrissential that helps support growth and maintenance of a healthy immune system.",
+			"ref" : "REF: Guthrie HA, Picciano MF. Human Nutrition. St. Louis, MO: Mosby-Year Book; 1995:359-365.",
+			"score" : 60,
+			"time" : 3
+		}
+	],
+	"Zinc" : [
+		{
+			"name" : "Peanuts",
+			"desc" : "Rich in Zinc! A Nutrissential that helps support growth and maintenance of a healthy immune system.",
+			"ref" : "REF: Fraker PJ, King LE, Laakko T, Vollmer TL. The dynamic link between the integrity of the immune system and zinc status. J Nutr. 2000;130(suppl):1399S–1406S.",
+			"score" : 20,
+			"time" : 2
+		},
+		{
+			"name" : "Oysters",
+			"desc" : "Rich in Zinc! A Nutrissential that helps support growth and maintenance of a healthy immune system.",
+			"ref" : "REF: Fraker PJ, King LE, Laakko T, Vollmer TL. The dynamic link between the integrity of the immune system and zinc status. J Nutr. 2000;130(suppl):1399S–1406S.",
+			"score" : 20,
+			"time" : 2
+		},
+		{
+			"name" : "Crab",
+			"desc" : "Rich in Zinc! A Nutrissential that helps support growth and maintenance of a healthy immune system.",
+			"ref" : "REF: Fraker PJ, King LE, Laakko T, Vollmer TL. The dynamic link between the integrity of the immune system and zinc status. J Nutr. 2000;130(suppl):1399S–1406S.",
+			"score" : 20,
+			"time" : 2
+		},
+		{
+			"name" : "Clams",
+			"desc" : "Rich in Zinc! A Nutrissential that helps support growth and maintenance of a healthy immune system.",
+			"ref" : "REF: Fraker PJ, King LE, Laakko T, Vollmer TL. The dynamic link between the integrity of the immune system and zinc status. J Nutr. 2000;130(suppl):1399S–1406S.",
+			"score" : 20,
+			"time" : 2
+		},
+		{
+			"name" : "Shrimps",
+			"desc" : "Rich in Zinc! A Nutrissential that helps support growth and maintenance of a healthy immune system.",
+			"ref" : "REF: Fraker PJ, King LE, Laakko T, Vollmer TL. The dynamic link between the integrity of the immune system and zinc status. J Nutr. 2000;130(suppl):1399S–1406S.",
+			"score" : 20,
+			"time" : 2
+		},
+		{
+			"name" : "Green Peas",
+			"desc" : "Rich in Zinc! A Nutrissential that helps support growth and maintenance of a healthy immune system.",
+			"ref" : "REF: Fraker PJ, King LE, Laakko T, Vollmer TL. The dynamic link between the integrity of the immune system and zinc status. J Nutr. 2000;130(suppl):1399S–1406S.",
+			"score" : 20,
+			"time" : 2
+		}
+	]
+}

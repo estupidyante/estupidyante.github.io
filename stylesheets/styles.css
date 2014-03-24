@@ -28,6 +28,10 @@ h2 {
   color:#393939;
 }
 
+h3 {
+  margin-top:20px;
+}
+
 h3, h4, h5, h6 {
   color:#494949;
 }
@@ -173,6 +177,12 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+}
+
+section ul {
+	border:none;
+	padding-top:0px;
+	margin:0px;
 }
 
 small {

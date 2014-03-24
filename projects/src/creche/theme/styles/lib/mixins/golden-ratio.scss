@@ -1,0 +1,11 @@
+@import "../functions/golden-ratio";
+
+@mixin golden-ratio($width: 960px){
+	& .golden-short {
+		width: golden-ratio($width, "short");
+	}
+
+	& .golden-long {
+		width: golden-ratio($width, "long");
+	}
+}

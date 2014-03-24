@@ -1,0 +1,10 @@
+@function golden-ratio($total-width: 960px, $side: "short"){
+	
+	$short: $total-width / 2.618px;
+
+	@if $side == "short" {
+		@return percentage($short / 100);
+	} @else if $side == "long" {
+		@return percentage($short * 1.618 / 100);
+	}
+}

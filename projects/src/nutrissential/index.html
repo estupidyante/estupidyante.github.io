@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Nutrissentials Game (HTML5)</title>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0" />
+        <link rel="stylesheet" href="theme/styles/game.css">
+    </head>
+    <body>
+        <div id="viewporter" class="ctrCursor" oncontextmenu="return false;">
+            <div id="gameView">
+                <div id="magnify">
+                    <button id="zoomIn" class="hud"></button>
+                    <button id="zoomOut" class="hud"></button>
+                </div>
+                <div id="minimap-holder">
+                    <div id="minimap">
+                        <div id="layer-box"></div>
+                        <div id="layer-overlay"></div>
+                        <div id="layer-map"></div>
+                    </div>
+                </div>
+                <canvas id="gameCanvas" width="780" height="460"></canvas>
+            </div>
+        </div>
+        <div id="bestwork">
+            <img src="theme/images/screens/browserIcons.png"/>
+        </div>
+        
+        <!-- important files (non-optional) -->
+        
+        <!-- Import CreateJS Suite Framework -->
+        <script type="text/javascript" src="theme/scripts/libs/easeljs/Easel.js"></script>
+        <script type="text/javascript" src="theme/scripts/libs/easeljs/Tween.js"></script>
+        <!-- End CreateJS Imports -->
+
+        <!-- Import JQuery -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+        <!-- End JQuery Imports -->
+
+        <script src="theme/scripts/libs/imagesQueue.js" type="text/javascript"></script>
+
+        <!--GAME:-->
+        <script type="text/javascript" src="theme/scripts/util/GameEngine.js"></script>
+
+        <script type="text/javascript" src="theme/scripts/util/Viewport.js"></script>
+        <script type="text/javascript" src="theme/scripts/util/Raf.js"></script>
+        <script type="text/javascript" src="theme/scripts/util/Animate.js"></script>
+        <script type="text/javascript" src="theme/scripts/util/Scroll.js"></script>
+        <script type="text/javascript" src="theme/scripts/gameworld/MapRender.js"></script>
+
+        <script type="text/javascript" src="theme/scripts/util/GameLoadingScene.js"></script>
+        <script type="text/javascript" src="theme/scripts/util/AudioManager.js"></script>
+        <script type="text/javascript" src="theme/scripts/util/PlayLoadingScene.js"></script>
+        <script type="text/javascript" src="theme/scripts/util/Clip.js"></script>
+        <script type="text/javascript" src="theme/scripts/util/Button.js"></script>
+        <script src="theme/scripts/util/SpriteLoader.js" type="text/javascript"></script>
+        <script src="theme/scripts/util/GetItemCombination.js" type="text/javascript"></script>
+        <script src="theme/scripts/util/Drag.js" type="text/javascript"></script>
+        
+        <script src="theme/scripts/screens/MenuScene.js" type="text/javascript"></script>
+        <script src="theme/scripts/screens/CreditScene.js" type="text/javascript"></script>
+        <script src="theme/scripts/screens/TutorialScene.js" type="text/javascript"></script>
+        <script src="theme/scripts/screens/LevelScene.js" type="text/javascript"></script>
+        <script src="theme/scripts/screens/GameScene.js" type="text/javascript"></script>
+
+        <script src="theme/scripts/util/CounterAnim.js" type="text/javascript"></script>
+        <script src="theme/scripts/util/IconSprite.js" type="text/javascript"></script>
+        <script src="theme/scripts/util/TextStroke.js" type="text/javascript"></script>
+
+        <!-- HUD -->
+        <script src="theme/scripts/gameworld/TimeBar.js" type="text/javascript"></script>
+        <script src="theme/scripts/gameworld/StatsBar.js" type="text/javascript"></script>
+        <script src="theme/scripts/gameworld/Items.js" type="text/javascript"></script>
+
+        <!-- Popup -->
+        <script type="text/javascript" src="theme/scripts/util/Popup.js"></script>
+        <script type="text/javascript" src="theme/scripts/util/PopupViewer.js"></script>
+        <script type="text/javascript" src="theme/scripts/popup/PausePopup.js"></script>
+        <script type="text/javascript" src="theme/scripts/popup/GameOverPopup.js"></script>
+        <script type="text/javascript" src="theme/scripts/popup/ConfirmPopup.js"></script>
+        <script type="text/javascript" src="theme/scripts/popup/ItemCompletePopup.js"></script>
+        <script type="text/javascript" src="theme/scripts/popup/LevelCompletePopup.js"></script>
+
+        <script type="text/javascript" src="theme/scripts/Game.js"></script>
+
+        <!-- Game Initialized -->
+        <script type="text/javascript">
+            WebFontConfig = {
+                //            custom: { families: ['Grobold'],
+                //                urls: ['styles/fonts_stylesheet.css']},
+                google: {
+                    families: ['Bowlby One SC']
+                },
+                loading: function () { trace("loading fonts"); }
+                    ,
+                fontactive: function (fontFamily, fontDescription) {
+                    trace("font is active: " + fontFamily + " -" + fontDescription);
+                },
+                fontinactive: function (fontFamily, fontDescription) {
+                    trace("font is in-active: " + fontFamily + " -" + fontDescription);
+                },
+                active: function () {
+                    trace("fonts are loaded.");
+                }
+
+            };
+
+
+            (function () {
+                // fonts loader:
+                var wf = document.createElement('script');
+                wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+                wf.type = 'text/javascript';
+                wf.async = 'true';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(wf, s);
+            })();
+            $(document).ready(function () {
+                initMainGame();
+            });
+                
+        </script>
+    </body>
+</html>
